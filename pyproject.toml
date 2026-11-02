@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "veliple-adrank_jd145"
+name = "veliple-long_toolchain_context_reclaim_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出广告召回与排序工程师·长工具链的上下文回收上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://veliple.github.io"
-Repository = "https://github.com/veliple/adrank_jd145"
-Issues = "https://github.com/veliple/adrank_jd145/issues"
+Repository = "https://github.com/veliple/long_toolchain_context_reclaim_grouping"
+Issues = "https://github.com/veliple/long_toolchain_context_reclaim_grouping/issues"
 
 [project.scripts]
-adrank_jd145 = "adrank_jd145:main"
+long_toolchain_context_reclaim_grouping = "long_toolchain_context_reclaim_grouping:main"
 
 [tool.setuptools]
-py-modules = ["adrank_jd145"]
+py-modules = ["long_toolchain_context_reclaim_grouping"]

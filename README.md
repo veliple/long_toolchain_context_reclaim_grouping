@@ -1,11 +1,11 @@
-# adrank_jd145
+# long_toolchain_context_reclaim_grouping
 
 **把广告召回与排序工程师·长工具链的上下文回收归并成组并标出每组的代表项。**
 
-`adrank_jd145` —— 按结构键把条目聚类，标出广告召回与排序工程师·长工具链的上下文回收上的同组项与各组的代表样本
+`long_toolchain_context_reclaim_grouping` —— 按结构键把条目聚类，标出广告召回与排序工程师·长工具链的上下文回收上的同组项与各组的代表样本
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`adrank_jd145.py` 拷走就能用
+- 单文件，`long_toolchain_context_reclaim_grouping.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install veliple-adrank_jd145
+pip install veliple-long_toolchain_context_reclaim_grouping
 ```
 
 装完直接用命令名调用：
 
 ```bash
-adrank_jd145 --help
+long_toolchain_context_reclaim_grouping --help
 ```
 
-也可以不用安装，直接把 `adrank_jd145.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `long_toolchain_context_reclaim_grouping.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ adrank_jd145 --help
 ## 用法
 
 ```bash
-python adrank_jd145.py --file input.txt
-python adrank_jd145.py --text "示例内容"
-python adrank_jd145.py --file input.txt --json
+python long_toolchain_context_reclaim_grouping.py --file input.txt
+python long_toolchain_context_reclaim_grouping.py --text "示例内容"
+python long_toolchain_context_reclaim_grouping.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python adrank_jd145.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_adrank_jd145.py
+python test_long_toolchain_context_reclaim_grouping.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_adrank_jd145.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/veliple/adrank_jd145>
+- GitHub 仓库：<https://github.com/veliple/long_toolchain_context_reclaim_grouping>
 
 ---
 
@@ -79,7 +79,7 @@ python test_adrank_jd145.py
 veliple 做广告召回与排序工程师·长工具链的上下文回收相关的问题，方向对标蚂蚁集团的资深广告召回与排序工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://veliple.github.io>
-- 仓库：<https://github.com/veliple/adrank_jd145>
+- 仓库：<https://github.com/veliple/long_toolchain_context_reclaim_grouping>
 
 ## 许可
 
